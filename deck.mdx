@@ -2,7 +2,21 @@ import { Head, Header, Footer, Notes, Steps } from 'mdx-deck';
 import { CodeSurfer } from 'code-surfer';
 import Code from 'mdx-code';
 import { LiveCode } from 'mdx-deck-live-code';
+import { Donut } from 'theme-ui';
+import myTheme from './theme';
+
+export const theme = myTheme;
 
 <Head>
-  <title></title>
+  <title>Example slide.</title>
 </Head>
+
+# theme-ui
+
+---
+
+<Donut value={1/2} />
+
+```jsx
+<Donut value={1/2} />
+```
