@@ -1,6 +1,5 @@
 node_modules
-dist
-docs
+public
 *.log
 yarn-debug.log*
 yarn-error.log*
